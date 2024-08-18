@@ -48,8 +48,8 @@ This component is used to display individual todo items. It shows the title, des
 #### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/todo-list-app.git
-cd todo-list-app
+git clone https://github.com/mahaboob-basha-a/todotask.git
+cd todotask
 ```
 #### 2. Install dependencies:
 
