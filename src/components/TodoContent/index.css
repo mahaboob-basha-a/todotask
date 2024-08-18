@@ -1,0 +1,46 @@
+.todo-container{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    .todo-input-container{
+        border: 1px solid #00000040;
+        background-color: #fff;
+        border-radius: 6px;
+        width: 340px;
+        /* height: 80px; */
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 4px;
+            button{
+                width: 68px;
+                height: 34px;
+                padding: 0 2px;
+                border: 0;
+                background-color: #FFC6C6;
+                border-radius: 5px;
+                color: #180161;
+                cursor: pointer;
+            }
+            input{
+                width: 260px;
+                height: 38px;
+                outline: none;
+                padding-left: 4px;
+                border: 0;
+                background-color: transparent;
+            }
+        }
+        .input-description{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .todo-card-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
